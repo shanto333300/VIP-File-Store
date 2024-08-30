@@ -4,7 +4,7 @@
 
 
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {},ᴍʏ ɴᴀᴍᴇ {},I am a permenant file store bot and users can access stored messages, Clone Future + Custom Url Shortner + Auto Delete Future</b>"""
+    START_TXT = """<b>Hᴇʟʟᴏ ,I am a permenant file store bot and users can access stored messages, Clone Future + Custom Url Shortner + Auto Delete Future</b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -35,7 +35,7 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-    CLONE_START_TXT = """<b>Hᴇʟʟᴏ {},ᴍʏ ɴᴀᴍᴇ {},I am a permenant file store bot and users can access stored messages, Clone Future + Custom Url Shortner + Auto Delete Future
+    CLONE_START_TXT = """<b>Hᴇʟʟᴏ ,I am a permenant file store bot and users can access stored messages, Clone Future + Custom Url Shortner + Auto Delete Future
 
 ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜɪs ғᴇᴀᴛᴜʀᴇ ᴛʜᴇɴ ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ ғʀᴏᴍ ᴍʏ <a href=https://t.me/ks_bots>ᴘᴀʀᴇɴᴛ</a></b>"""
 
@@ -53,9 +53,9 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 
 🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/King_sourob>𝗞𝗜𝗡𝗚</a>
 
-👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/Ks_Bots_Disscussion>Ks 𝐒𝐮𝐩𝐩𝐨𝐫𝐭</a>
+👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/Ks_Bots>Ks Support</a>
 
-📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/Ks_Bots>Ks 𝐔𝐩𝐝𝐚𝐭𝐞</a></b>
+📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/Ks_Bots>Bot Channel</a></b>
 """
 
     CABOUT_TXT = """<b>ʜɪ ɪ ᴀᴍ ᴘᴇʀᴍᴀɴᴇɴᴛ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴡɪᴛʜ ᴄʟᴏɴᴇ ғᴇᴀᴛᴜʀᴇ + ᴄᴜsᴛᴏᴍ ᴜʀʟ sʜᴏʀᴛɴᴇʀ ɪᴛ ᴍᴇᴀɴs ᴀɴʏ ᴜsᴇʀ ᴄᴀɴ sᴇᴛ ʜɪs ᴜʀʟ sʜᴏʀᴛɴᴇʀ ᴀɴᴅ + ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ.
