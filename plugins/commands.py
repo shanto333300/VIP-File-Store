@@ -203,7 +203,7 @@ async def start(client, message):
             await asyncio.sleep(1) 
         await sts.delete()
         if AUTO_DELETE_MODE == True:
-            k = await client.send_message(chat_id = message.from_user.id, text=f"<b></u></b>\Your 📁 File Will Auto Delete in <b><u>{AUTO_DELETE} minutes.</u> ↗️ <i></b>Forward It Anywhere Or Save It Privately Before Downloading</i>.\n\n<b><i></b>")
+            k = await client.send_message(chat_id = message.from_user.id, text=f"<b></u></b>Your 📁 File Will Auto Delete in <b><u>{AUTO_DELETE} Minutes.</u> ↗️ <i></b>Forward It Anywhere Or Save It Privately Before Downloading</i>.\n\n<b><i></b>")
             await asyncio.sleep(AUTO_DELETE_TIME)
             for x in filesarr:
                 try:
@@ -264,7 +264,7 @@ async def start(client, message):
                     )
                 )
             if AUTO_DELETE_MODE == True:
-                k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>Your 📁 File Will Auto Delete in <b><u>{AUTO_DELETE} minutes</u> ↗️ <i></b>Forward It Anywhere Or Save It Privately Before Downloading</i>.\n\n<b><i></b>")
+                k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>Your 📁 File Will Auto Delete in <b><u>{AUTO_DELETE} Minutes</u> ↗️ <i></b>Forward It Anywhere Or Save It Privately Before Downloading</i>.\n\n<b><i></b>")
                 await asyncio.sleep(AUTO_DELETE_TIME)
                 try:
                     await msg.delete()
@@ -325,7 +325,7 @@ async def start(client, message):
             )
         )
     if AUTO_DELETE_MODE == True:
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b></u></b>\Your 📁 File Will Auto Delete in <b><u>{AUTO_DELETE} minutes</u> ↗️ <i></b>Forward It Anywhere Or Save It Privately Before Downloading</i>.\n\n<b><i></b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b></u></b>Your 📁 File Will Auto Delete in <b><u>{AUTO_DELETE} Minutes.</u> ↗️ <i></b>Forward It Anywhere Or Save It Privately Before Downloading</i>.\n\n<b><i></b>")
         await asyncio.sleep(AUTO_DELETE_TIME)
         try:
             await x.delete()
