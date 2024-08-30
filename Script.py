@@ -4,7 +4,7 @@
 
 
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ ,I am a permenant file store bot and users can access stored messages, Clone Future + Custom Url Shortner + Auto Delete Future</b>"""
+    START_TXT = """<b>Hᴇʟʟᴏ I am a permenant file store bot and users can access stored messages, Clone Future + Custom Url Shortner + Auto Delete Future</b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -35,7 +35,7 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-    CLONE_START_TXT = """<b>Hᴇʟʟᴏ ,I am a permenant file store bot and users can access stored messages, Clone Future + Custom Url Shortner + Auto Delete Future
+    CLONE_START_TXT = """<b>Hᴇʟʟᴏ I am a permenant file store bot and users can access stored messages, Clone Future + Custom Url Shortner + Auto Delete Future
 
 ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜɪs ғᴇᴀᴛᴜʀᴇ ᴛʜᴇɴ ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ ғʀᴏᴍ ᴍʏ <a href=https://t.me/ks_bots>ᴘᴀʀᴇɴᴛ</a></b>"""
 
@@ -66,7 +66,7 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 
 📚 ʟɪʙʀᴀʀʏ: <a href=https://docs.pyrogram.org>𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦</a>
 
-🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=tg://user?id={}>ᴅᴇᴠᴇʟᴏᴘᴇʀ</a></b>
+🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/King_sourob>𝗞𝗜𝗡𝗚</a>
 """
 
 # Don't Remove Credit Tg - @VJ_Botz
