@@ -203,7 +203,7 @@ async def start(client, message):
             await asyncio.sleep(1) 
         await sts.delete()
         if AUTO_DELETE_MODE == True:
-            k = await client.send_message(chat_id = message.from_user.id, text=f"<b></u></b>\n\nYour 📁 File Will Auto Delete in <b><u>{AUTO_DELETE} minutes.</u> ↗️ <i></b>Forward It Anywhere Or Save It Privately Before Downloading</i>.\n\n<b><i></b>")
+            k = await client.send_message(chat_id = message.from_user.id, text=f"<b></u></b>\Your 📁 File Will Auto Delete in <b><u>{AUTO_DELETE} minutes.</u> ↗️ <i></b>Forward It Anywhere Or Save It Privately Before Downloading</i>.\n\n<b><i></b>")
             await asyncio.sleep(AUTO_DELETE_TIME)
             for x in filesarr:
                 try:
@@ -325,7 +325,7 @@ async def start(client, message):
             )
         )
     if AUTO_DELETE_MODE == True:
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b></u></b>\n\nYour 📁 File Will Auto Delete in <b><u>{AUTO_DELETE} minutes</u> ↗️ <i></b>Forward It Anywhere Or Save It Privately Before Downloading</i>.\n\n<b><i></b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b></u></b>\Your 📁 File Will Auto Delete in <b><u>{AUTO_DELETE} minutes</u> ↗️ <i></b>Forward It Anywhere Or Save It Privately Before Downloading</i>.\n\n<b><i></b>")
         await asyncio.sleep(AUTO_DELETE_TIME)
         try:
             await x.delete()
@@ -408,10 +408,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@Tech_VJ')
+            InlineKeyboardButton('', url='')
             ],[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/vj_bot_disscussion'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vj_botz')
+            InlineKeyboardButton('', url=''),
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Ks_Bots')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
             ],[
