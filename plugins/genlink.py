@@ -45,7 +45,7 @@ async def incoming_gen_link(bot, message):
     if WEBSITE_URL_MODE == True:
         share_link = f"{WEBSITE_URL}?DM={outstr}"
     else:
-        share_link = f"https://t.me/{username}?start={outstr}"
+        share_link = f"https://telegram.me/{username}?start={outstr}"
     if user["base_site"] and user["shortener_api"] != None:
         short_link = await get_short_link(user, share_link)
         await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link}</b>")
@@ -78,7 +78,7 @@ async def gen_link_s(bot, message):
     if WEBSITE_URL_MODE == True:
         share_link = f"{WEBSITE_URL}?DM={outstr}"
     else:
-        share_link = f"https://t.me/{username}?start={outstr}"
+        share_link = f"https://telegram.me/{username}?start={outstr}"
     if user["base_site"] and user["shortener_api"] != None:
         short_link = await get_short_link(user, share_link)
         await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link}</b>")
@@ -193,7 +193,7 @@ async def gen_link_batch(bot, message):
     if WEBSITE_URL_MODE == True:
         share_link = f"{WEBSITE_URL}?DM=BATCH-{file_id}"
     else:
-        share_link = f"https://t.me/{username}?start=BATCH-{file_id}"
+        share_link = f"https://telegram.me/{username}?start=BATCH-{file_id}"
     if user["base_site"] and user["shortener_api"] != None:
         short_link = await get_short_link(user, share_link)
         await sts.edit(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\nContains `{og_msg}` files.\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link}</b>")
